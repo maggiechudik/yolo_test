@@ -31,10 +31,12 @@ This directory contains scripts and data used to test the Ultralytics YOLOv8 obj
 1. **Activate the Virtual Environment:**  You might need to create a new one?
    `source .venv/bin/activate`
 2. **Install Dependencies:** Ensure required packages are installed:
-   * `pip install --upgrade pip setuptools wheel`
-   * `pip install opencv-python`
-   * `pip install --upgrade pip`
-   * `pip install ultralytics`
+   * **You should be able to just install everything by doing**: `pip install requirements.txt` 
+   * But, these are the things you need off the top of my head:
+     * `pip install --upgrade pip setuptools wheel`
+     * `pip install opencv-python`
+     * `pip install --upgrade pip`
+     * `pip install ultralytics`
    * There could be other issues with this so lmk if you have errors, it also took sooo long to install all this stuff so it might be a little difficult to setup the dockerfile/image with these big packages
 3. **Run a script**:
 * Single image test: `python main.py`
