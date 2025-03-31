@@ -6,3 +6,5 @@ val2017/
 annotations/
 .DS_Store
 *.json
+
+.idea/
